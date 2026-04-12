@@ -1,0 +1,30 @@
+# =====================================================================
+# HIPPAM Smart Water - robots.txt
+# Domain  : https://perumda.com
+# Dibuat  : 2026-03-18
+# Tujuan  : Panduan crawler Google & mesin pencari lainnya
+# =====================================================================
+
+# Izinkan semua search engine bot
+User-agent: *
+Allow: /
+
+# Blokir akses ke file/folder yang tidak perlu diindeks
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /tailwind.config.js
+Disallow: /*.map$
+
+# Izinkan akses ke gambar & aset penting untuk indexing
+Allow: /assets/img/
+
+# Crawl-delay (opsional, hindari overload server)
+Crawl-delay: 1
+
+# Lokasi Sitemap
+Sitemap: https://perumda.com/sitemap.xml

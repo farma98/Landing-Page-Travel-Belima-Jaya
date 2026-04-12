@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.google.com/schemas/sitemap-image/1.1
+            http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+    <!-- =====================================================================
+         HIPPAM Smart Water - Sitemap.xml
+         Domain  : https://perumda.com
+         Dibuat  : 2026-03-18
+         Versi   : 1.0
+         Tujuan  : Google Search Console & SEO Optimal
+    ====================================================================== -->
+
+    <!-- 1. Halaman Utama (Homepage) -->
+    <url>
+        <loc>https://perumda.com/</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://perumda.com/og-image.jpg</image:loc>
+            <image:title>HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern</image:title>
+            <image:caption>Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi</image:caption>
+        </image:image>
+    </url>
+
+    <!-- 2. Halaman Promo Enterprise -->
+    <url>
+        <loc>https://perumda.com/promo.php</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://perumda.com/hippam/assets/img/promo.png</image:loc>
+            <image:title>Promo Spesial HIPPAM Smart Water - Paket Enterprise</image:title>
+            <image:caption>Dapatkan Paket Enterprise dengan harga spesial! Custom fitur sesuai kebutuhan HIPPAM Anda.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- 3. Section: Fitur Unggulan (anchor) -->
+    <url>
+        <loc>https://perumda.com/#fitur</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- 4. Section: Harga / Pricing (anchor) -->
+    <url>
+        <loc>https://perumda.com/#harga</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- 5. Section: FAQ (anchor) -->
+    <url>
+        <loc>https://perumda.com/#faq</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- 6. Section: Testimoni (anchor) -->
+    <url>
+        <loc>https://perumda.com/#testimoni</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- 7. Section: Demo / Cara Kerja (anchor) -->
+    <url>
+        <loc>https://perumda.com/#demo</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- 8. Section: Kontak / CTA (anchor) -->
+    <url>
+        <loc>https://perumda.com/#kontak</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

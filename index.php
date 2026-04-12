@@ -1,0 +1,524 @@
+<?php
+// Security Headers - Production Ready
+header("X-Content-Type-Options: nosniff");
+header("X-Frame-Options: SAMEORIGIN");
+header("X-XSS-Protection: 1; mode=block");
+header("Referrer-Policy: strict-origin-when-cross-origin");
+header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
+
+// Content Security Policy (CSP)
+header(
+	"Content-Security-Policy: " .
+		"default-src 'self'; " .
+		"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://www.googletagmanager.com https://tagmanager.google.com https://www.google-analytics.com https://ssl.google-analytics.com; " .
+		"script-src-elem 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://www.googletagmanager.com https://tagmanager.google.com https://www.google-analytics.com https://ssl.google-analytics.com https://googleads.g.doubleclick.net; " .
+		"script-src-attr 'unsafe-inline'; " .
+		"style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com https://tagmanager.google.com https://www.googletagmanager.com; " .
+		"style-src-elem 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com https://tagmanager.google.com https://www.googletagmanager.com; " .
+		"font-src 'self' https://fonts.gstatic.com; " .
+		"img-src 'self' data: https: https://www.googletagmanager.com https://ssl.gstatic.com https://www.gstatic.com; " .
+		"connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://region1.analytics.google.com https://stats.g.doubleclick.net https://www.google.com https://googleads.g.doubleclick.net https://wa.me https://api.whatsapp.com; " .
+		"frame-src https://www.googletagmanager.com; " .
+		"frame-ancestors 'self'; " .
+		"worker-src 'self' blob:;"
+);
+
+// Strict Transport Security (HTTPS only - uncomment when using HTTPS)
+// header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
+?>
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F8MPPETP16"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-F8MPPETP16');
+		gtag('config', 'AW-17937206261');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Primary Meta Tags -->
+	<title>HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern</title>
+	<meta name="title" content="HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern">
+	<meta name="description" content="Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi. Setup 1 hari, trial gratis 7 hari. Mudah, cepat, dan transparan.">
+	<meta name="keywords" content="HIPPAM, pengelolaan air, software HIPPAM, tagihan air digital, pencatatan meter air, sistem billing air, aplikasi HIPPAM, manajemen air warga, platform HIPPAM, software air bersih">
+	<meta name="author" content="HIPPAM Smart Water">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://perumda.com/">
+	<meta property="og:title" content="HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern">
+	<meta property="og:description" content="Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi. Setup 1 hari, trial gratis 7 hari!">
+	<meta property="og:image" content="https://perumda.com/og-image.jpg">
+	<meta property="og:site_name" content="HIPPAM Smart Water">
+	<meta property="og:locale" content="id_ID">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://perumda.com/">
+	<meta name="twitter:title" content="HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern">
+	<meta name="twitter:description" content="Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi. Setup 1 hari, trial gratis 7 hari!">
+	<meta name="twitter:image" content="https://perumda.com/assets/img/twitter-image.jpg">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+	<!--<link rel="manifest" href="/site.webmanifest">-->
+
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://perumda.com/">
+
+	<!-- Theme Color -->
+	<meta name="theme-color" content="#2563EB">
+	<meta name="msapplication-TileColor" content="#2563EB">
+
+	<!-- Tailwind CSS (Generated by Tailwind CLI) -->
+	<link rel="stylesheet" href="./assets/css/output.css">
+
+	<!-- Google Fonts - Poppins + Inter Pairing (Optimized with preload) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+	<!-- GSAP Animation Library -->
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+
+	<!-- VANTA.js Background Animation -->
+	<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.waves.min.js" defer></script>
+
+	<style>
+		/* Font Pairing: Poppins (Headers) + Inter (Body) */
+
+		/* Headings - Poppins (Friendly & Bold) */
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: 'Poppins', sans-serif;
+		}
+
+		/* Body - Inter (Professional & Readable) */
+		body {
+			font-family: 'Inter', sans-serif;
+		}
+
+		.gradient-bg {
+			background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+		}
+
+		.gradient-text {
+			background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		/* Dark Mode Transition */
+		* {
+			transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+		}
+
+		/* Dark Mode Gradient */
+		.dark .gradient-bg {
+			background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+		}
+
+		/* Accessibility: Focus Visible Styles */
+		*:focus-visible {
+			outline: 3px solid #2563EB;
+			outline-offset: 2px;
+			border-radius: 4px;
+		}
+
+		.dark *:focus-visible {
+			outline-color: #1E40AF;
+		}
+
+		/* Skip to Main Content Link */
+		.skip-link {
+			position: absolute;
+			top: -40px;
+			left: 0;
+			background: #2563EB;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+			z-index: 100;
+			border-radius: 0 0 4px 0;
+			font-weight: 600;
+		}
+
+		.skip-link:focus {
+			top: 0;
+		}
+
+		/* Screen Reader Only */
+		.sr-only {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border-width: 0;
+		}
+
+		#page-loader {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 9999;
+			transition: opacity 0.5s ease, visibility 0.5s ease;
+		}
+
+		#page-loader.hidden {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loader-spinner {
+			width: 60px;
+			height: 60px;
+			border: 4px solid rgba(255, 255, 255, 0.3);
+			border-top-color: white;
+			border-radius: 50%;
+			animation: spin 1s linear infinite;
+			margin: 0 auto;
+		}
+
+		@keyframes spin {
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		.loader-text {
+			color: white;
+			margin: 20px 0 0 0;
+			font-size: 14px;
+			font-weight: 500;
+			text-align: center;
+		}
+
+		/* Error State */
+		.error-message {
+			background: #fef2f2;
+			border: 2px solid #fca5a5;
+			color: #991b1b;
+			padding: 16px;
+			border-radius: 8px;
+			margin: 20px;
+			display: none;
+		}
+
+		.error-message.show {
+			display: block;
+		}
+
+		.dark .error-message {
+			background: #7f1d1d;
+			border-color: #dc2626;
+			color: #fecaca;
+		}
+
+		/* Lazy Loading Styles */
+		img[data-src],
+		video.lazy-video,
+		iframe[data-src] {
+			opacity: 0;
+			transition: opacity 0.3s ease-in;
+		}
+
+		img.lazy-loaded,
+		video.lazy-loaded,
+		iframe.lazy-loaded {
+			opacity: 1;
+		}
+
+		/* Loading placeholder for videos */
+		video.lazy-video:not(.lazy-loaded) {
+			background: linear-gradient(90deg, #1f2937 25%, #374151 50%, #1f2937 75%);
+			background-size: 200% 100%;
+			animation: loading 1.5s ease-in-out infinite;
+		}
+
+		@keyframes loading {
+			0% {
+				background-position: 200% 0;
+			}
+
+			100% {
+				background-position: -200% 0;
+			}
+		}
+	</style>
+
+	<!-- Structured Data (JSON-LD) for SEO -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "SoftwareApplication",
+			"name": "HIPPAM Smart Water",
+			"applicationCategory": "BusinessApplication",
+			"operatingSystem": "Web Browser, Android, iOS",
+			"offers": {
+				"@type": "AggregateOffer",
+				"priceCurrency": "IDR",
+				"lowPrice": "200000",
+				"highPrice": "1500000",
+				"offerCount": "3"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.9",
+				"ratingCount": "150",
+				"bestRating": "5",
+				"worstRating": "1"
+			},
+			"description": "Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi. Setup 1 hari, trial gratis 7 hari.",
+			"featureList": [
+				"Data Pelanggan",
+				"Input Meter Bulanan",
+				"Hitung Tagihan Otomatis",
+				"Cetak Struk/Invoice",
+				"Riwayat Pembayaran",
+				"Daftar Tunggakan",
+				"Notifikasi WA/SMS",
+				"Dashboard & Laporan",
+				"Hak Akses Role",
+				"Export Excel/PDF",
+				"Multi Wilayah",
+				"Akses dari Mana Saja"
+			],
+			"provider": {
+				"@type": "Organization",
+				"name": "HIPPAM Smart Water",
+				"url": "https://perumda.com",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+62-857-3114-7138",
+					"contactType": "Customer Service",
+					"availableLanguage": ["Indonesian"]
+				}
+			}
+		}
+	</script>
+
+	<!-- Dark Mode Script - Load ASAP to prevent flash -->
+	<script>
+		// Check for saved theme preference or default to light mode
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+		}
+	</script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+
+
+	<!-- Page Loader -->
+	<div id="page-loader" aria-label="Loading page content">
+		<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+			<div class="loader-spinner"></div>
+			<p class="loader-text">Memuat halaman...</p>
+		</div>
+	</div>
+
+	<!-- Noscript Fallback -->
+	<noscript>
+		<div style="background: #fef2f2; border: 2px solid #fca5a5; color: #991b1b; padding: 20px; margin: 20px; border-radius: 8px; text-align: center;">
+			<h2 style="margin: 0 0 10px 0; font-size: 18px;">⚠️ JavaScript Diperlukan</h2>
+			<p style="margin: 0;">Untuk pengalaman terbaik, mohon aktifkan JavaScript di browser Anda.</p>
+		</div>
+	</noscript>
+
+	<!-- Skip to Main Content (Accessibility) -->
+	<a href="#main-content" class="skip-link">Skip to main content</a>
+
+	<?php include 'sections/header.php'; ?>
+
+	<?php include 'sections/hero.php'; ?>
+
+	<?php include 'sections/trustbar.php'; ?>
+
+	<?php include 'sections/problem-solution.php'; ?>
+
+	<?php include 'sections/features.php'; ?>
+
+	<?php include 'sections/testimonials.php'; ?>
+
+	<?php include 'sections/cara-kerja.php'; ?>
+
+	<?php include 'sections/demo.php'; ?>
+
+	<?php include 'sections/pricing.php'; ?>
+
+	<?php include 'sections/bep.php'; ?>
+
+	<?php include 'sections/faq.php'; ?>
+
+	<?php include 'sections/cta.php'; ?>
+
+	<?php include 'sections/footer.php'; ?>
+
+	<?php include 'sections/floating-wa.php'; ?>
+
+	<?php include 'sections/terms-modal.php'; ?>
+
+	<?php include 'sections/back-to-top.php'; ?>
+
+	<?php include 'sections/gsap-animations.php'; ?>
+
+	<?php include 'sections/gtm-events.php'; ?>
+
+	<!-- Hero Background Animation -->
+	<script src="assets/js/hero-animation.js" defer></script>
+
+	<!-- Lazy Loading Script -->
+	<script src="assets/js/lazy-load.js" defer></script>
+
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function() {
+				if (typeof(url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-17937206261/bXTJCO6Lk_QbEPWXkOlC',
+				'value': 1.0,
+				'currency': 'IDR',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
+
+	<!-- Page Load & Error Handling Scripts -->
+	<script>
+		// Hide page loader when content is fully loaded
+		window.addEventListener('load', function() {
+			const loader = document.getElementById('page-loader');
+			if (loader) {
+				setTimeout(function() {
+					loader.classList.add('hidden');
+					// Remove from DOM after transition
+					setTimeout(function() {
+						loader.remove();
+					}, 500);
+				}, 300); // Small delay for smooth UX
+			}
+		});
+
+		// Offline/Online Detection
+		window.addEventListener('offline', function() {
+			showNotification('⚠️ Koneksi Internet Terputus', 'Beberapa fitur mungkin tidak berfungsi dengan baik.', 'error');
+		});
+
+		window.addEventListener('online', function() {
+			showNotification('✅ Koneksi Internet Kembali', 'Anda kembali online.', 'success');
+		});
+
+		// Check initial online status
+		if (!navigator.onLine) {
+			window.addEventListener('load', function() {
+				showNotification('⚠️ Tidak Ada Koneksi Internet', 'Beberapa fitur mungkin tidak berfungsi dengan baik.', 'error');
+			});
+		}
+
+		// Notification helper function
+		function showNotification(title, message, type) {
+			// Create notification element
+			const notification = document.createElement('div');
+			notification.style.cssText = `
+				position: fixed;
+				top: 20px;
+				right: 20px;
+				max-width: 350px;
+				padding: 16px 20px;
+				border-radius: 8px;
+				box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+				z-index: 10000;
+				animation: slideInRight 0.3s ease;
+				font-family: 'Inter', sans-serif;
+				${type === 'error' ? 'background: #fef2f2; border: 2px solid #fca5a5; color: #991b1b;' : 'background: #f0fdf4; border: 2px solid #86efac; color: #166534;'}
+			`;
+
+			notification.innerHTML = `
+				<div style="font-weight: 600; margin-bottom: 4px;">${title}</div>
+				<div style="font-size: 14px;">${message}</div>
+			`;
+
+			document.body.appendChild(notification);
+
+			// Auto remove after 5 seconds
+			setTimeout(function() {
+				notification.style.animation = 'slideOutRight 0.3s ease';
+				setTimeout(function() {
+					notification.remove();
+				}, 300);
+			}, 5000);
+		}
+
+		// Add animation keyframes
+		const style = document.createElement('style');
+		style.textContent = `
+			@keyframes slideInRight {
+				from { transform: translateX(400px); opacity: 0; }
+				to { transform: translateX(0); opacity: 1; }
+			}
+			@keyframes slideOutRight {
+				from { transform: translateX(0); opacity: 1; }
+				to { transform: translateX(400px); opacity: 0; }
+			}
+		`;
+		document.head.appendChild(style);
+
+		// GSAP Error Boundary
+		window.addEventListener('error', function(event) {
+			// Check if error is related to GSAP
+			if (event.message && (event.message.includes('gsap') || event.message.includes('ScrollTrigger'))) {
+				console.error('❌ GSAP Animation Error:', event.message);
+				console.warn('Animations may be disabled, but the page remains functional.');
+				event.preventDefault(); // Prevent default error handling
+			}
+		}, true);
+
+		// Check if GSAP loaded successfully
+		window.addEventListener('load', function() {
+			if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+				console.warn('⚠️ GSAP or ScrollTrigger failed to load. Animations will be disabled.');
+			}
+		});
+	</script>
+
+</body>
+
+</html>
