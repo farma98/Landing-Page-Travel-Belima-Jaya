@@ -1,5 +1,5 @@
 /**
- * Lazy Loading Implementation for HIPPAM Smart Water
+ * Lazy Loading Implementation for Sewa Hiace Tuban - Belima Jaya Travel
  * Handles lazy loading for images, videos, and iframes
  * Optimizes page load performance
  */

@@ -1,9 +1,9 @@
 // VANTA.js Waves Animation for Hero Section
-console.log("🔄 Hero animation script loaded");
+console.log("Hero animation script loaded");
 
 // Wait for all libraries to load
 window.addEventListener("load", function () {
-    console.log("🔄 Window fully loaded, checking libraries...");
+    console.log("Window fully loaded, checking libraries...");
 
     // Debug: Check what's available
     console.log("THREE available?", typeof THREE !== "undefined");
@@ -11,28 +11,28 @@ window.addEventListener("load", function () {
 
     // Check if VANTA and THREE are loaded
     if (typeof VANTA === "undefined") {
-        console.error("❌ VANTA.js not loaded");
+        console.error("VANTA.js not loaded");
         return;
     }
 
     if (typeof THREE === "undefined") {
-        console.error("❌ THREE.js not loaded");
+        console.error("THREE.js not loaded");
         return;
     }
 
     if (typeof VANTA.WAVES === "undefined") {
-        console.error("❌ VANTA.WAVES not available");
+        console.error("VANTA.WAVES not available");
         return;
     }
 
     // Check if target element exists
     const targetEl = document.getElementById("vanta-bg");
     if (!targetEl) {
-        console.error("❌ Element #vanta-bg not found");
+        console.error("Element #vanta-bg not found");
         return;
     }
 
-    console.log("✅ All checks passed, initializing VANTA...");
+    console.log("All checks passed, initializing VANTA...");
 
     try {
         // Initialize VANTA Waves effect
@@ -53,7 +53,7 @@ window.addEventListener("load", function () {
             zoom: 0.85,
         });
 
-        console.log("✅ VANTA Waves animation initialized successfully");
+        console.log("VANTA Waves animation initialized successfully");
         console.log("VANTA Effect object:", vantaEffect);
 
         // Cleanup on page unload to prevent memory leaks
@@ -63,7 +63,7 @@ window.addEventListener("load", function () {
             }
         });
     } catch (error) {
-        console.error("❌ Error initializing VANTA animation:", error);
+        console.error("Error initializing VANTA animation:", error);
         console.error("Error details:", error.message, error.stack);
     }
 });
