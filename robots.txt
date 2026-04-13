@@ -1,7 +1,7 @@
 # =====================================================================
-# HIPPAM Smart Water - robots.txt
-# Domain  : https://perumda.com
-# Dibuat  : 2026-03-18
+# Sewa Hiace Tuban - Belima Jaya Travel - robots.txt
+# Domain  : https://sewahiacetuban.com
+# Dibuat  : 2026-04-13
 # Tujuan  : Panduan crawler Google & mesin pencari lainnya
 # =====================================================================
 
@@ -27,4 +27,4 @@ Allow: /assets/img/
 Crawl-delay: 1
 
 # Lokasi Sitemap
-Sitemap: https://perumda.com/sitemap.xml
+Sitemap: https://sewahiacetuban.com/sitemap.xml

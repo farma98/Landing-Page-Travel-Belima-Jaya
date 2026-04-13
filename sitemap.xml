@@ -10,83 +10,83 @@
             http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
     <!-- =====================================================================
-         HIPPAM Smart Water - Sitemap.xml
-         Domain  : https://perumda.com
-         Dibuat  : 2026-03-18
+         Sewa Hiace Tuban - Belima Jaya Travel - Sitemap.xml
+         Domain  : https://sewahiacetuban.com
+         Dibuat  : 2026-04-13
          Versi   : 1.0
          Tujuan  : Google Search Console & SEO Optimal
     ====================================================================== -->
 
     <!-- 1. Halaman Utama (Homepage) -->
     <url>
-        <loc>https://perumda.com/</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://perumda.com/og-image.jpg</image:loc>
-            <image:title>HIPPAM Smart Water - Platform Pengelolaan Air Warga Modern</image:title>
-            <image:caption>Platform digital untuk pencatatan meter, penagihan otomatis, dan laporan HIPPAM yang rapi</image:caption>
+            <image:loc>https://sewahiacetuban.com/assets/img/og-image.jpg</image:loc>
+            <image:title>Sewa Hiace Tuban - Belima Jaya Travel | Armada Terpercaya</image:title>
+            <image:caption>Sewa Hiace Tuban terpercaya bersama Belima Jaya Travel. Armada terawat, sopir berpengalaman, harga terjangkau.</image:caption>
         </image:image>
     </url>
 
-    <!-- 2. Halaman Promo Enterprise -->
+    <!-- 2. Halaman Promo Sewa Hiace -->
     <url>
-        <loc>https://perumda.com/promo.php</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/promo.php</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
-            <image:loc>https://perumda.com/hippam/assets/img/promo.png</image:loc>
-            <image:title>Promo Spesial HIPPAM Smart Water - Paket Enterprise</image:title>
-            <image:caption>Dapatkan Paket Enterprise dengan harga spesial! Custom fitur sesuai kebutuhan HIPPAM Anda.</image:caption>
+            <image:loc>https://sewahiacetuban.com/assets/img/promo.png</image:loc>
+            <image:title>Promo Spesial Sewa Hiace Tuban - Belima Jaya Travel</image:title>
+            <image:caption>Dapatkan harga spesial sewa Hiace Tuban! Armada terawat, sopir berpengalaman, siap antar jemput.</image:caption>
         </image:image>
     </url>
 
-    <!-- 3. Section: Fitur Unggulan (anchor) -->
+    <!-- 3. Section: Fitur / Keunggulan (anchor) -->
     <url>
-        <loc>https://perumda.com/#fitur</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#fitur</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- 4. Section: Harga / Pricing (anchor) -->
+    <!-- 4. Section: Harga / Tarif Sewa (anchor) -->
     <url>
-        <loc>https://perumda.com/#harga</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#harga</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <!-- 5. Section: FAQ (anchor) -->
     <url>
-        <loc>https://perumda.com/#faq</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#faq</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <!-- 6. Section: Testimoni (anchor) -->
     <url>
-        <loc>https://perumda.com/#testimoni</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#testimoni</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
-    <!-- 7. Section: Demo / Cara Kerja (anchor) -->
+    <!-- 7. Section: Armada / Unit Hiace (anchor) -->
     <url>
-        <loc>https://perumda.com/#demo</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#armada</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
-    <!-- 8. Section: Kontak / CTA (anchor) -->
+    <!-- 8. Section: Kontak / Pesan Sekarang (anchor) -->
     <url>
-        <loc>https://perumda.com/#kontak</loc>
-        <lastmod>2026-03-18</lastmod>
+        <loc>https://sewahiacetuban.com/#kontak</loc>
+        <lastmod>2026-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
