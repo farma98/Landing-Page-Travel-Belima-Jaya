@@ -38,32 +38,32 @@ header(
 	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Promo HIPPAM Smart Water - Paket Enterprise</title>
-	<meta name="description" content="Promo spesial untuk Paket Enterprise HIPPAM Smart Water">
+	<title>Promo Sewa Hiace Tuban - Belima Jaya Travel | Harga Spesial</title>
+	<meta name="description" content="Promo spesial sewa Hiace Tuban bersama Belima Jaya Travel. Armada terawat, sopir berpengalaman, harga terjangkau!">
 
 	<!-- Open Graph / Facebook / WhatsApp -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://perumda.com/promo.php">
-	<meta property="og:title" content="🔥 Promo Spesial HIPPAM Smart Water">
-	<meta property="og:description" content="Dapatkan Paket Enterprise dengan harga spesial! Custom fitur sesuai kebutuhan HIPPAM Anda.">
-	<meta property="og:image" content="https://perumda.com/hippam/assets/img/promo.png">
-	<meta property="og:image:secure_url" content="https://perumda.com/hippam/assets/img/promo.png">
+	<meta property="og:url" content="https://sewahiacetuban.com/promo.php">
+	<meta property="og:title" content="🔥 Promo Spesial Sewa Hiace Tuban - Belima Jaya Travel">
+	<meta property="og:description" content="Dapatkan harga spesial sewa Hiace Tuban! Armada terawat, sopir berpengalaman, siap antar jemput ke seluruh Jawa Timur.">
+	<meta property="og:image" content="https://sewahiacetuban.com/assets/img/promo.png">
+	<meta property="og:image:secure_url" content="https://sewahiacetuban.com/assets/img/promo.png">
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
-	<meta property="og:image:alt" content="Promo HIPPAM Smart Water Paket Enterprise">
-	<meta property="og:site_name" content="HIPPAM Smart Water">
+	<meta property="og:image:alt" content="Promo Sewa Hiace Tuban - Belima Jaya Travel">
+	<meta property="og:site_name" content="Belima Jaya Travel - Sewa Hiace Tuban">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:url" content="https://perumda.com/hippam/promo.php">
-	<meta name="twitter:title" content="🔥 Promo Spesial HIPPAM Smart Water">
-	<meta name="twitter:description" content="Dapatkan Paket Enterprise dengan harga spesial!">
-	<meta name="twitter:image" content="https://perumda.com/hippam/assets/img/promo.png">
-	<meta name="twitter:image:alt" content="Promo HIPPAM Smart Water Paket Enterprise">
+	<meta name="twitter:url" content="https://sewahiacetuban.com/promo.php">
+	<meta name="twitter:title" content="🔥 Promo Spesial Sewa Hiace Tuban - Belima Jaya Travel">
+	<meta name="twitter:description" content="Dapatkan harga spesial sewa Hiace Tuban! Armada terawat, sopir berpengalaman.">
+	<meta name="twitter:image" content="https://sewahiacetuban.com/assets/img/promo.png">
+	<meta name="twitter:image:alt" content="Promo Sewa Hiace Tuban - Belima Jaya Travel">
 
 	<!-- WhatsApp Specific -->
-	<link rel="image_src" href="https://perumda.com/hippam/assets/img/promo.png">
+	<link rel="image_src" href="https://sewahiacetuban.com/assets/img/promo.png">
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
@@ -392,14 +392,14 @@ header(
 		<!-- Header -->
 		<div class="header">
 			<div class="promo-badge">🔥 PROMO SPESIAL</div>
-			<h1>Paket Enterprise HIPPAM Smart Water</h1>
-			<p>Solusi Custom Untuk HIPPAM Besar</p>
+			<h1>Promo Sewa Hiace Tuban - Belima Jaya Travel</h1>
+			<p>Armada Terawat, Sopir Berpengalaman, Harga Terjangkau</p>
 		</div>
 
 		<!-- Promo Image - Full Width -->
 		<div class="promo-image-section">
 			<div class="promo-image-container" onclick="openModal()">
-				<img src="assets/img/promo.png" alt="Promo HIPPAM Smart Water" class="promo-image" id="promoImage" loading="eager">
+				<img src="assets/img/promo.png" alt="Promo Sewa Hiace Tuban - Belima Jaya Travel" class="promo-image" id="promoImage" loading="eager">
 				<div class="zoom-overlay">
 					<div class="zoom-hint">
 						<span class="zoom-icon">🔍</span>
@@ -412,19 +412,19 @@ header(
 		<!-- Content -->
 		<div class="content">
 			<div class="features">
-				<h2>✨ Keunggulan Paket Enterprise</h2>
+				<h2>✨ Keunggulan Sewa Hiace Belima Jaya</h2>
 				<ul>
-					<li>Unlimited pelanggan & admin</li>
-					<li>Custom fitur sesuai kebutuhan HIPPAM Anda</li>
-					<li>API Integration untuk sistem terintegrasi</li>
-					<li>Dedicated support 24/7</li>
-					<li>Server dedicated untuk performa maksimal</li>
-					<li>Semua fitur Pro + fitur eksklusif lainnya</li>
+					<li>Armada Hiace Premio & Commuter terawat & bersih</li>
+					<li>Sopir berpengalaman & ramah, siap antar jemput</li>
+					<li>Harga transparan, tanpa biaya tersembunyi</li>
+					<li>Layanan 24 jam, siap melayani kapan saja</li>
+					<li>Bisa sewa lepas kunci atau dengan sopir</li>
+					<li>Melayani rute Tuban & seluruh Jawa Timur</li>
 				</ul>
 			</div>
 
 			<div class="cta-section">
-				<a href="https://wa.me/6282240001143?text=Saya,%0A%0A✓%20Nama%20:%0A✓%20Alamat%20:%0A✓%20Nama%20Hippam%20:%0A%0ATertarik%20untuk%20memesan%20Paket%20Enterprise%20HIPPAM%20Smart%20Water%20sesuai%20custom%20aplikasi%20yang%20saya%20inginkan.%0A%0ABerikut%20fitur%20aplikasi%20yang%20saya%20inginkan%20:%0A1).%0A2).%0A3)." onclick="return gtag_report_conversion(this.href)" class="cta-button" data-gtm-cta="promo_enterprise_tertarik">
+				<a href="https://wa.me/6282240001143?text=Halo%20Belima%20Jaya%20Travel,%0A%0ASaya%20tertarik%20dengan%20promo%20sewa%20Hiace%20Tuban.%0A%0A✓%20Nama%20:%0A✓%20Tanggal%20Sewa%20:%0A✓%20Tujuan%20:%0A✓%20Jumlah%20Penumpang%20:%0A%0AMohon%20info%20harga%20dan%20ketersediaan%20unit%20ya.%20Terima%20kasih!" onclick="return gtag_report_conversion(this.href)" class="cta-button" data-gtm-cta="promo_sewa_hiace_tertarik">
 					<svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
 						<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
 					</svg>
