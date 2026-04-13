@@ -1,1 +1,12 @@
 /node_modules
+
+# File PHP (sudah dikonversi ke index.html untuk GitHub Pages)
+# Boleh di-comment jika ingin tetap menyimpan PHP di repo
+# index.php
+# promo.php
+# sections/
+
+# Build & config files (tidak diperlukan oleh GitHub Pages)
+tailwind.config.js
+package.json
+package-lock.json
