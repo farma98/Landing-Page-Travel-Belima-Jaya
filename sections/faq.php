@@ -2,202 +2,77 @@
 <section id="faq" class="py-20 px-4 bg-gray-50 dark:bg-gray-900 to-blue-50">
 	<div class="container mx-auto max-w-4xl">
 		<div class="text-center mb-16">
-			<h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4 dark:text-white">Pertanyaan yang Sering Ditanyakan</h2>
-			<p class="text-xl text-gray-600 dark:text-white">Temukan jawaban pertanyaan Anda di sini</p>
+			<h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4 dark:text-white">Pertanyaan <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Umum</span> </h2>
+			<p class="text-xl text-gray-600 dark:text-white">Jawaban cepat sebelum booking</p>
 		</div>
 
 		<div class="space-y-4 faq-container">
-			<!-- FAQ 1 -->
 			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
 				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah sistem ini sulit digunakan?</span>
+					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah harga sudah termasuk driver?</span>
 					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
 					</svg>
 				</button>
 				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
 					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Tidak sama sekali! Sistem kami dirancang sangat user-friendly. Walau Anda gaptek sekalipun, dengan training singkat dari kami, Anda bisa langsung pakai. Interface-nya sederhana dan mudah dipahami.</p>
+						<p class="text-gray-600">Umumnya sudah termasuk driver. Detail final menyesuaikan paket perjalanan.</p>
 					</div>
 				</div>
 			</div>
 
-			<!-- FAQ 2 -->
 			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
 				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Berapa lama proses setup awal?</span>
+					<span class="font-semibold text-gray-800 text-lg pr-4">Bagaimana ketentuan BBM, tol, dan parkir?</span>
 					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
 					</svg>
 				</button>
 				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
 					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Setup hanya butuh 1 hari kerja! Kami akan bantu Anda dari awal: install sistem, input data pelanggan, setting tarif, hingga training penggunaan. Setelah itu langsung bisa dipakai.</p>
+						<p class="text-gray-600">Bisa all-in atau terpisah. Tim akan jelaskan skema yang paling efisien sesuai rute.</p>
 					</div>
 				</div>
 			</div>
 
-			<!-- FAQ 3 -->
 			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
 				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah data kami aman?</span>
+					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah bisa overtime jika perjalanan molor?</span>
 					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
 					</svg>
 				</button>
 				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
 					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Sangat aman! Data Anda tersimpan di server cloud yang terenkripsi dan terlindungi. Kami juga melakukan backup rutin setiap hari. Hanya akun dengan izin yang bisa mengakses data.</p>
+						<p class="text-gray-600">Bisa, dengan biaya tambahan overtime per jam sesuai ketentuan paket.</p>
 					</div>
 				</div>
 			</div>
 
-			<!-- FAQ 4 -->
 			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
 				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Bisa diakses dari HP atau harus laptop?</span>
+					<span class="font-semibold text-gray-800 text-lg pr-4">Area layanan mencakup mana saja?</span>
 					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
 					</svg>
 				</button>
 				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
 					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Bisa dari keduanya! Sistem kami responsif, jadi bisa dibuka dari HP, tablet, atau laptop. Petugas lapangan bisa input meter langsung dari HP Android/iOS mereka.</p>
+						<p class="text-gray-600">Melayani dalam kota dan luar kota. Rute menyesuaikan kebutuhan perjalanan Anda.</p>
 					</div>
 				</div>
 			</div>
 
-			<!-- FAQ 5 -->
 			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
 				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah ada biaya tersembunyi?</span>
+					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah tersedia invoice untuk perusahaan?</span>
 					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
 					</svg>
 				</button>
 				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
 					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Tidak ada! Harga yang tertera sudah all-in termasuk setup, training, support, dan maintenance. Anda hanya bayar biaya langganan bulanan/tahunan sesuai paket yang dipilih.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 6 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Bagaimana cara pembayaran langganan?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Pembayaran bisa via transfer bank atau e-wallet. Kami akan kirim invoice setiap bulan/tahun sesuai siklus langganan Anda. Bisa juga bayar di muka untuk paket tahunan (dapat diskon).</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 7 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah bisa custom fitur sesuai kebutuhan kami?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Tentu saja! Untuk paket Enterprise, kami bisa custom fitur khusus sesuai kebutuhan HIPPAM Anda. Silakan diskusikan dengan tim kami untuk detail lebih lanjut.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 8 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah ada trial/demo gratis?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Ya! Kami berikan trial 7 hari gratis tanpa komitmen. Anda bisa coba semua fitur dulu sebelum memutuskan berlangganan. Demo langsung juga bisa kami lakukan via video call atau datang langsung.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 9 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Bagaimana jika ada masalah teknis?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Kami menyediakan support teknis via WhatsApp, telepon, dan email. Tim kami siap membantu Anda mengatasi masalah teknis dengan cepat. Untuk paket Pro & Enterprise, ada prioritas support.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 10 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah cocok untuk HIPPAM kecil dengan pelanggan sedikit?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Sangat cocok! Paket Basic kami dirancang khusus untuk HIPPAM kecil dengan harga terjangkau. Walau pelanggan hanya 20-50 orang, sistem ini tetap membantu Anda kelola data lebih rapi dan profesional.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 11 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah sistem ini membutuhkan internet terus-menerus?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Ya, karena sistem berbasis web (cloud), Anda perlu koneksi internet untuk mengaksesnya. Namun keuntungannya: data Anda aman tersimpan online, bisa diakses dari mana saja, dan tidak perlu khawatir laptop rusak.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 12 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Bagaimana perhitungan prospek bisnis dan skema pasif income dari bisnis Hippam ?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Hippam memberi peluang bisnis yang jelas: semakin banyak anggota dan jaringan berkembang, semakin besar pendapatan bersih yang bisa Anda dapatkan. Dengan biaya operasional terkontrol, potensi keuntungan terus meningkat seiring waktu.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- FAQ 13 -->
-			<div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-				<button class="faq-button w-full text-left px-6 py-5 flex justify-between items-center hover:bg-blue-50 transition-colors duration-200" aria-expanded="false">
-					<span class="font-semibold text-gray-800 text-lg pr-4">Apakah ada manualbook nya?</span>
-					<svg class="faq-icon w-6 h-6 text-blue-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-					</svg>
-				</button>
-				<div class="faq-content overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
-					<div class="px-6 pb-5 pt-2">
-						<p class="text-gray-600 dark:text-black-300">Ya, terdapat manual book berupa petunjuk atau tata cara penggunaan aplikasi dalam bentuk file serta video edukasi penggunaannya</p>
+						<p class="text-gray-600">Tersedia invoice dan bukti pembayaran untuk kebutuhan administrasi perusahaan.</p>
 					</div>
 				</div>
 			</div>

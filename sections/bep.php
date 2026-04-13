@@ -1,4 +1,4 @@
-<!-- Section BEP HIPPAM -->
+<!-- Section BEP / Prospektus Bisnis Sewa Hiace Tuban -->
 <section id="bep" class="py-12 md:py-20 px-4 bg-gray-50 dark:bg-gray-800 animate-section">
 	<div class="container mx-auto max-w-5xl">
 
@@ -8,11 +8,11 @@
 				📄 Dokumen Resmi
 			</span>
 			<h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 dark:text-white mb-4 px-2">
-				Prospektus Bisnis Hippam
+				Prospektus Bisnis Sewa Hiace Tuban
 			</h2>
 			<p class="text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto px-4">
-				Dokumen Break Even Point / Balik Modal (BEP) HIPPAM Smart Water tersedia untuk diunduh secara gratis.
-				Gunakan sebagai referensi perhitungan titik impas dan penentuan tarif air yang adil, transparan, dan berkelanjutan bagi masyarakat.
+				Dokumen Break Even Point / Balik Modal (BEP) usaha sewa Hiace Tuban tersedia untuk diunduh secara gratis.
+				Gunakan sebagai referensi perhitungan titik impas dan penetapan tarif sewa yang tepat, kompetitif, dan menguntungkan secara jangka panjang.
 			</p>
 		</div>
 
@@ -33,32 +33,32 @@
 				<div class="p-6 md:p-10 flex flex-col justify-between md:w-2/3">
 					<div>
 						<h3 class="text-xl md:text-2xl font-bold text-gray-800 dark:text-white mb-4">
-							Kapan Bisnis Hippam mulai Untung Melimpah?
+							Kapan Bisnis Sewa Hiace Tuban mulai Untung Melimpah?
 						</h3>
 						<p class="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-							<strong>BEP (Break Even Point / Balik Modal)</strong> adalah titik impas di mana seluruh pendapatan dari iuran air telah mencukupi semua biaya operasional, pemeliharaan, depresiasi aset, dan biaya pengembangan jaringan distribusi air bersih dalam satu periode.
+							<strong>BEP (Break Even Point / Balik Modal)</strong> adalah titik impas di mana seluruh pendapatan dari sewa unit Hiace telah mencukupi semua biaya operasional, bahan bakar, perawatan armada, gaji sopir, dan biaya pengembangan armada dalam satu periode.
 						</p>
 						<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-							Dengan dokumen BEP ini, pengelola HIPPAM dapat mengetahui titik balik modal dan menentukan tarif yang <strong>tepat, transparan, dan mampu menjaga keberlangsungan layanan air</strong> bagi seluruh warga secara jangka panjang.
+							Dengan dokumen BEP ini, pemilik usaha sewa Hiace dapat mengetahui titik balik modal dan menentukan tarif sewa yang <strong>tepat, kompetitif, dan mampu menjaga keberlangsungan operasional armada</strong> secara jangka panjang.
 						</p>
 
 						<!-- Poin Kegunaan -->
 						<ul class="space-y-3 mb-8">
 							<li class="flex items-start gap-3">
 								<span class="text-green-500 font-bold mt-0.5">✓</span>
-								<span class="text-gray-700 dark:text-gray-300">Acuan penetapan tarif air yang adil dan transparan</span>
+								<span class="text-gray-700 dark:text-gray-300">Acuan penetapan tarif sewa Hiace yang kompetitif dan menguntungkan</span>
 							</li>
 							<li class="flex items-start gap-3">
 								<span class="text-green-500 font-bold mt-0.5">✓</span>
-								<span class="text-gray-700 dark:text-gray-300">Menjamin keberlangsungan operasional HIPPAM</span>
+								<span class="text-gray-700 dark:text-gray-300">Menjamin keberlangsungan operasional armada Hiace Tuban</span>
 							</li>
 							<li class="flex items-start gap-3">
 								<span class="text-green-500 font-bold mt-0.5">✓</span>
-								<span class="text-gray-700 dark:text-gray-300">Memenuhi standar pelaporan dan pertanggungjawaban keuangan</span>
+								<span class="text-gray-700 dark:text-gray-300">Proyeksi keuntungan dan estimasi ROI usaha rental kendaraan</span>
 							</li>
 							<li class="flex items-start gap-3">
 								<span class="text-green-500 font-bold mt-0.5">✓</span>
-								<span class="text-gray-700 dark:text-gray-300">Dapat dijadikan lampiran laporan ke pemerintah daerah</span>
+								<span class="text-gray-700 dark:text-gray-300">Dapat dijadikan proposal pengajuan modal atau pinjaman usaha</span>
 							</li>
 						</ul>
 					</div>

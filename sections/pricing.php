@@ -1,363 +1,89 @@
-<!-- Paket Harga (DESIRE) -->
-<section id="harga" class="py-12 md:py-20 px-4 animate-section">
-	<div class="container mx-auto">
-		<div class="text-center mb-10 md:mb-16">
-			<h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-3 md:mb-4 px-2 dark:text-white">Ambil Keputusan Sekarang! Kesempatan Sangat Terbatas!</h2>
-			<p class="text-base md:text-xl text-gray-600 px-4 dark:text-white">Berlaku Hanya Untuk Hari Ini</p>
+<!-- Estimasi Harga -->
+<section id="estimasi" class="relative bg-white dark:bg-gray-900 py-20 px-4 animate-section transition-colors duration-300 overflow-hidden">
+
+	<!-- Background decoration -->
+	<div class="absolute inset-0 pointer-events-none overflow-hidden">
+		<div class="absolute -top-24 -right-24 w-80 h-80 bg-blue-100 dark:bg-blue-900/20 rounded-full blur-3xl opacity-60"></div>
+		<div class="absolute -bottom-24 -left-24 w-80 h-80 bg-cyan-100 dark:bg-cyan-900/20 rounded-full blur-3xl opacity-60"></div>
+	</div>
+
+	<div class="container mx-auto max-w-3xl relative z-10">
+
+		<!-- Section Header -->
+		<div class="text-center mb-12">
+			<span class="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-sm font-semibold px-4 py-1.5 rounded-full mb-4 border border-blue-100 dark:border-blue-800">
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+				Estimasi Harga
+			</span>
+			<h2 class="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Estimasi Harga <span class="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">Sewa Hiace</span></h2>
+			<p class="text-lg text-gray-500 dark:text-gray-400 max-w-xl mx-auto">Harga estimasi untuk referensi awal. Konsultasi lebih lanjut via WhatsApp untuk penawaran terbaik.</p>
 		</div>
-		<div class="grid md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto pricing-grid">
-			<!-- Paket Basic -->
-			<div class="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 md:p-8 border-2 border-gray-200 hover:shadow-2xl transition">
-				<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Basic</h3>
-				<p class="text-gray-600 mb-6">Untuk HIPPAM kecil</p>
-				<div class="mb-4">
-					<span class="text-lg font-semibold text-gray-400 line-through">Rp 399K/bulan</span>
-				</div>
-				<div class="mb-2">
-					<span class="text-3xl md:text-4xl font-bold text-blue-600">Rp 199K</span>
-					<span class="text-gray-600 dark:text-gray-300">/bulan</span>
-				</div>
-				<div class="mb-6">
-					<span class="inline-block bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">🔥 Hanya untuk 5 pembeli pertama — maks. pukul 12.00 hari ini!</span>
-				</div>
-				<ul class="space-y-3 mb-8">
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Maksimal 100 pelanggan</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">1 Admin</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Input meter & tagihan</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Cetak struk</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Laporan Excel/PDF</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Gratis setup & training</span>
-					</li>
-				</ul>
-				<a href="https://wa.me/6282240001143?text=Saya,%0A✓%20Nama%20:%0A✓%20Alamat%20:%0A✓%20Nama%20Hippam%20:%0A%0ATertarik%20untuk%20memesan%20Paket%20Basic%20HIPPAM%20Smart%20Water.%0AMohon%20info%20demo%20dan%20harganya%20ya%20kak." onclick="return gtag_report_conversion(this.href)" class="block w-full bg-gray-200 text-gray-800 text-center px-6 py-3 rounded-xl font-semibold hover:bg-gray-300 transition" data-gtm-cta="pricing_pilih_basic">Pilih Basic</a>
-				<button onclick="openTermsModal('basic')" class="mt-2 text-xs text-gray-500 hover:text-blue-600 underline w-full text-center">Syarat & Ketentuan</button>
-			</div>
 
-			<!-- Paket Pro (TERLARIS) -->
-			<div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl md:rounded-3xl shadow-2xl p-6 md:p-8 border-2 border-blue-700 md:transform md:scale-105 relative">
-				<div class="absolute -top-4 right-4 bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-sm font-bold terlaris-badge">🔥 TERLARIS</div>
-				<h3 class="text-xl md:text-2xl font-bold text-white mb-2">Pro</h3>
-				<p class="text-blue-100 mb-6">Untuk HIPPAM menengah</p>
-				<div class="mb-4">
-					<span class="text-lg font-semibold text-blue-200 line-through">Rp 599K/bulan</span>
-				</div>
-				<div class="mb-2">
-					<span class="text-3xl md:text-4xl font-bold text-white">Rp 399K</span>
-					<span class="text-blue-100">/bulan</span>
-				</div>
-				<div class="mb-6">
-					<span class="inline-block bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">🔥 Hanya untuk 3 pembeli pertama — maks. pukul 12.00 hari ini!</span>
-				</div>
-				<ul class="space-y-3 mb-8 text-white">
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Maksimal 500 pelanggan</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>3 Admin (multi role)</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Semua fitur Basic</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Notifikasi WhatsApp</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Dashboard statistik</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Multi wilayah RT/RW</span>
-					</li>
-					<li class="flex items-start">
-						<span class="mr-2">✓</span>
-						<span>Prioritas support</span>
-					</li>
-				</ul>
-				<a href="https://wa.me/6282240001143?text=Saya,%0A✓%20Nama%20:%0A✓%20Alamat%20:%0A✓%20Nama%20Hippam%20:%0A%0ATertarik%20untuk%20memesan%20Paket%20Pro%20HIPPAM%20Smart%20Water.%0AMohon%20info%20demo%20dan%20harganya%20ya%20kak." onclick="return gtag_report_conversion(this.href)" class="block w-full bg-white text-blue-700 text-center px-6 py-3 rounded-xl font-semibold hover:shadow-xl transition" data-gtm-cta="pricing_pilih_pro">Pilih Pro</a>
-				<button onclick="openTermsModal('pro')" class="mt-2 text-xs text-blue-100 hover:text-white underline w-full text-center">Syarat & Ketentuan</button>
-			</div>
+		<!-- Single Pricing Card -->
+		<div class="pricing-grid relative bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 rounded-3xl shadow-2xl shadow-blue-500/30 p-8 md:p-10 overflow-hidden">
 
-			<!-- Paket Enterprise -->
-			<div class="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 md:p-8 border-2 border-gray-200 hover:shadow-2xl transition">
-				<h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2">Enterprise</h3>
-				<p class="text-gray-600 mb-6">Untuk HIPPAM besar</p>
-				<div class="mb-4">
-					<span class="text-lg font-semibold text-gray-400 line-through">Rp 7jt/develop</span>
+			<!-- Decorative circles -->
+			<div class="absolute -top-16 -right-16 w-56 h-56 bg-white/10 rounded-full pointer-events-none"></div>
+			<div class="absolute -bottom-20 -left-10 w-64 h-64 bg-white/5 rounded-full pointer-events-none"></div>
+
+			<div class="relative z-10">
+				<!-- Top label -->
+				<div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-6">
+					<span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+					Harga Estimasi Perjalanan
 				</div>
-				<div class="mb-2">
-					<span class="text-3xl md:text-4xl font-bold text-blue-700">Rp 6,5jt</span>
-					<span class="text-gray-600">/develop</span>
+
+				<div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
+					<!-- Price Info -->
+					<div>
+						<p class="text-blue-100 text-sm font-medium mb-2">Estimasi per perjalanan</p>
+						<div class="flex items-end gap-3">
+							<span class="text-5xl md:text-6xl font-extrabold text-white leading-none">900rb</span>
+							<div class="flex flex-col pb-1 text-blue-100">
+								<span class="text-lg font-bold">— 1,5 Jt</span>
+								<span class="text-sm">/ trip</span>
+							</div>
+						</div>
+						<p class="text-blue-200 text-sm mt-3">*Harga dapat berbeda tergantung rute, durasi, & jenis unit</p>
+					</div>
+
+					<!-- CTA Button -->
+					<div class="flex-shrink-0">
+						<a href="https://wa.me/6282240001143?text=Halo,%20saya%20mau%20cek%20estimasi%20sewa%20Hiace.%0ATanggal:%0ARute:%0AJumlah%20peserta:%0ADurasi:%0AJenis%20trip:%20Dalam%20kota/Luar%20kota/Paket"
+						   onclick="return gtag_report_conversion(this.href)"
+						   class="group inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-4 rounded-2xl font-bold text-base hover:bg-blue-50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-lg"
+						   data-gtm-cta="estimasi_wa">
+							<svg class="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+								<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+							</svg>
+							Konsultasi via WhatsApp
+						</a>
+					</div>
 				</div>
-				<div class="mb-6">
-					<span class="inline-block bg-red-100 text-red-600 text-xs font-semibold px-3 py-1 rounded-full">🔥 Hanya untuk 1 pembeli pertama — maks. pukul 12.00 hari ini!</span>
+
+				<!-- Includes -->
+				<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 border-t border-white/20 pt-6">
+					<div class="flex items-center gap-2.5">
+						<div class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center flex-shrink-0">
+							<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+						</div>
+						<span class="text-sm text-white font-medium">Unit + Driver</span>
+					</div>
+					<div class="flex items-center gap-2.5">
+						<div class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center flex-shrink-0">
+							<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+						</div>
+						<span class="text-sm text-white font-medium">Rute Fleksibel</span>
+					</div>
+					<div class="flex items-center gap-2.5">
+						<div class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center flex-shrink-0">
+							<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+						</div>
+						<span class="text-sm text-white font-medium">BBM & Tol Menyesuaikan</span>
+					</div>
 				</div>
-				<ul class="space-y-3 mb-8">
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Unlimited pelanggan</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Unlimited admin</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Semua fitur Pro</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Custom fitur khusus</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">API integration</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Dedicated support 24/7</span>
-					</li>
-					<li class="flex items-start">
-						<span class="text-green-500 mr-2">✓</span>
-						<span class="text-gray-700">Server dedicated</span>
-					</li>
-				</ul>
-				<a href="https://perumda.com/promo.php" class="block w-full bg-gradient-to-r from-blue-700 to-blue-600 text-white text-center px-6 py-3 rounded-xl font-semibold hover:shadow-xl transition" data-gtm-cta="pricing_pilih_enterprise">Pilih Enterprise</a>
-				<button onclick="openTermsModal('enterprise')" class="mt-2 text-xs text-gray-500 hover:text-blue-600 underline w-full text-center">Syarat & Ketentuan</button>
 			</div>
 		</div>
-		<p class="text-center mt-6 md:mt-8 text-sm md:text-base text-gray-600 px-4 dark:text-white">💡 Semua paket sudah termasuk: Trial 7 hari gratis, Setup 1 hari, Training admin, dan Support teknis</p>
+
 	</div>
 </section>
-
-<script>
-	function openTermsModal(packageType) {
-		const modal = document.getElementById('termsModal');
-		const modalTitle = document.getElementById('modalTitle');
-		const modalContent = document.getElementById('modalContent');
-
-		let title = '';
-		let content = '';
-
-		if (packageType === 'basic') {
-			title = 'Syarat & Ketentuan Paket Basic';
-			content = `
-			<div class="space-y-4 text-gray-700">
-				<h4 class="font-bold text-lg text-blue-600">Paket Basic &mdash; <s class="text-gray-400">Rp 399.000/bulan</s> <span class="text-red-600">Rp 199.000/bulan</span> <span class="text-xs font-normal text-red-500">(promo 5 pembeli pertama, maks. 12.00 hari ini)</span></h4>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Penggunaan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Maksimal 100 pelanggan aktif</li>
-						<li>1 akun admin (tidak dapat ditambah)</li>
-						<li>Trial gratis 7 hari tanpa biaya</li>
-						<li>Pembayaran dilakukan setiap bulan di awal periode</li>
-						<li>Data disimpan di cloud server bersama (shared hosting)</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Pembatasan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Tidak termasuk notifikasi WhatsApp otomatis</li>
-						<li>Tidak termasuk multi wilayah RT/RW</li>
-						<li>Support melalui WhatsApp di jam kerja (09:00-17:00)</li>
-						<li>Fitur tambahan tidak dapat dikustomisasi</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Pembatalan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Dapat dibatalkan kapan saja tanpa penalti</li>
-						<li>Data akan dihapus 30 hari setelah pembatalan</li>
-						<li>Tidak ada refund untuk periode berjalan</li>
-						<li>Backup data dapat diminta sebelum penghapusan</li>
-					</ul>
-				</div>
-				
-				<div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
-					<p class="text-sm"><strong>Catatan:</strong> Setup awal dan training admin dilakukan secara online melalui video call. Waktu setup maksimal 1 hari kerja.</p>
-				</div>
-			</div>
-		`;
-		} else if (packageType === 'pro') {
-			title = 'Syarat & Ketentuan Paket Pro';
-			content = `
-			<div class="space-y-4 text-gray-700">
-				<h4 class="font-bold text-lg text-blue-600">Paket Pro 🔥 &mdash; <s class="text-gray-400">Rp 599.000/bulan</s> <span class="text-red-600">Rp 399.000/bulan</span> <span class="text-xs font-normal text-red-500">(promo 3 pembeli pertama, maks. 12.00 hari ini)</span></h4>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Penggunaan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Maksimal 500 pelanggan aktif</li>
-						<li>Maksimal 3 akun admin dengan multi role</li>
-						<li>Trial gratis 7 hari tanpa biaya</li>
-						<li>Pembayaran dilakukan setiap bulan di awal periode</li>
-						<li>Data disimpan di cloud server dengan performa lebih baik</li>
-						<li>Notifikasi WhatsApp maksimal 1.000 pesan/bulan</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Fitur Tambahan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Dashboard statistik real-time dengan grafik</li>
-						<li>Multi wilayah RT/RW untuk pengelompokan pelanggan</li>
-						<li>Notifikasi WhatsApp otomatis untuk tagihan</li>
-						<li>Prioritas support dengan respon lebih cepat</li>
-						<li>History data hingga 2 tahun</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Pembatasan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Tidak termasuk API integration</li>
-						<li>Tidak termasuk custom fitur khusus</li>
-						<li>Support melalui WhatsApp di jam kerja (prioritas)</li>
-						<li>Server tidak dedicated (shared tapi perform lebih baik)</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Upgrade/Downgrade:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Upgrade ke Enterprise dapat dilakukan kapan saja</li>
-						<li>Downgrade ke Basic dapat dilakukan dengan menyesuaikan limit pelanggan</li>
-						<li>Perubahan paket berlaku di awal periode bulan berikutnya</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Pembatalan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Dapat dibatalkan kapan saja tanpa penalti</li>
-						<li>Data akan dihapus 60 hari setelah pembatalan</li>
-						<li>Tidak ada refund untuk periode berjalan</li>
-						<li>Backup data dapat diminta sebelum penghapusan</li>
-					</ul>
-				</div>
-				
-				<div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
-					<p class="text-sm"><strong>Catatan:</strong> Paket ini paling populer dan cocok untuk HIPPAM dengan 100-500 pelanggan yang membutuhkan fitur notifikasi otomatis.</p>
-				</div>
-			</div>
-		`;
-		} else if (packageType === 'enterprise') {
-			title = 'Syarat & Ketentuan Paket Enterprise';
-			content = `
-			<div class="space-y-4 text-gray-700">
-				<h4 class="font-bold text-lg text-blue-600">Paket Enterprise &mdash; <s class="text-gray-400">Rp 7.000.000/develop</s> <span class="text-red-600">Rp 6.500.000/develop</span> <span class="text-xs font-normal text-red-500">(promo 1 pembeli pertama, maks. 12.00 hari ini)</span></h4>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Penggunaan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Unlimited pelanggan dan admin</li>
-						<li>Trial gratis 7 hari tanpa biaya</li>
-						<li>Harga disesuaikan dengan kebutuhan dan jumlah pelanggan</li>
-						<li>Kontrak minimal 6 bulan atau 1 tahun</li>
-						<li>Data disimpan di dedicated server khusus</li>
-						<li>Notifikasi WhatsApp unlimited</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Fitur Premium:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Semua fitur dari paket Pro</li>
-						<li>Custom development untuk fitur khusus sesuai kebutuhan</li>
-						<li>API integration dengan sistem lain (bank, payment gateway, dll)</li>
-						<li>Dedicated support 24/7 melalui WhatsApp & Telepon</li>
-						<li>Dedicated server untuk performa maksimal</li>
-						<li>Backup otomatis harian dengan retention unlimited</li>
-						<li>SLA (Service Level Agreement) 99.9% uptime</li>
-						<li>Onsite training dan setup (optional dengan biaya tambahan)</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Kontrak:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Kontrak minimal 6 bulan untuk mendapatkan harga special</li>
-						<li>Pembayaran dapat dilakukan bulanan, 6 bulanan, atau tahunan</li>
-						<li>Diskon tersedia untuk pembayaran tahunan (hingga 15%)</li>
-						<li>Perpanjangan kontrak mendapat prioritas support</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Custom Development:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Custom fitur dihitung terpisah dari biaya langganan bulanan</li>
-						<li>Waktu pengembangan disesuaikan dengan kompleksitas</li>
-						<li>Fitur custom menjadi milik klien sepenuhnya</li>
-						<li>Maintenance fitur custom termasuk dalam paket support</li>
-					</ul>
-				</div>
-				
-				<div class="space-y-2">
-					<h5 class="font-semibold text-gray-800">Ketentuan Pembatalan:</h5>
-					<ul class="list-disc pl-5 space-y-1">
-						<li>Pembatalan harus disampaikan 30 hari sebelumnya</li>
-						<li>Jika dalam masa kontrak, dikenakan biaya penalti 50% dari sisa kontrak</li>
-						<li>Data akan disimpan 90 hari setelah pembatalan</li>
-						<li>Backup lengkap data dapat diminta kapan saja</li>
-						<li>Custom fitur tetap dapat digunakan dengan lisensi perpetual</li>
-					</ul>
-				</div>
-				
-				<div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
-					<p class="text-sm"><strong>Catatan:</strong> Paket ini cocok untuk HIPPAM besar atau PDAM yang memerlukan sistem yang sangat robust, custom, dan support 24/7. Hubungi kami untuk diskusi kebutuhan dan penawaran harga khusus.</p>
-				</div>
-			</div>
-		`;
-		}
-
-		modalTitle.textContent = title;
-		modalContent.innerHTML = content;
-		modal.classList.remove('hidden');
-		document.body.style.overflow = 'hidden'; // Prevent body scroll when modal is open
-	}
-
-	function closeTermsModal() {
-		const modal = document.getElementById('termsModal');
-		modal.classList.add('hidden');
-		document.body.style.overflow = ''; // Restore body scroll
-	}
-
-	// Close modal when clicking outside
-	document.getElementById('termsModal')?.addEventListener('click', function(e) {
-		if (e.target === this) {
-			closeTermsModal();
-		}
-	});
-
-	// Close modal with ESC key
-	document.addEventListener('keydown', function(e) {
-		if (e.key === 'Escape') {
-			closeTermsModal();
-		}
-	});
-</script>
