@@ -212,7 +212,7 @@ http://localhost/tubanweb/lp-travel-bj/
 Jika ada pertanyaan atau butuh bantuan:
 
 - **WhatsApp**: 0822-4000-1143
-- **Email**: tubanweb1@gmail.com
+- **Email**: tubanictcode@gmail.com
 
 ## 📄 Lisensi
 
